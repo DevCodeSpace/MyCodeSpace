@@ -23,9 +23,9 @@ This portfolio demonstrates expertise in creating polished, production-ready Flu
 Experience the future of mobile banking with our sophisticated financial management platform featuring real-time analytics, multi-account oversight, and intelligent transaction insights.
 
 <div align="center">
-  <img src="project_ui_images/banking_app/main_dashboard.jpeg" alt="Main Dashboard" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/banking_app/overview_screen.jpeg" alt="Overview Screen" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/banking_app/savings_dashboard.jpeg" alt="Savings Dashboard" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Banking_App/main_dashboard.jpeg" alt="Main Dashboard" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Banking_App/overview_screen.jpeg" alt="Overview Screen" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Banking_App/savings_dashboard.jpeg" alt="Savings Dashboard" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 </div>
 
 #### ✨ Key Features
@@ -49,9 +49,9 @@ Transform your financial future with our all-in-one wealth management solution, 
 
 <div align="center">
   <img src="Project_UI_Images/Banking_Store/dashboard_image.jpeg" alt="Dashboard Home" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/banking_store/investment_portfolio.jpeg" alt="Investment Portfolio" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/banking_store/goal_details.jpeg" alt="Goal Details" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/banking_store/user_profile.jpeg" alt="User Profile" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Banking_Store/investment_portfolio.jpeg" alt="Investment Portfolio" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Banking_Store/goal_details.jpeg" alt="Goal Details" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Banking_Store/user_profile.jpeg" alt="User Profile" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 </div>
 
 #### ✨ Key Features
@@ -74,9 +74,9 @@ Transform your financial future with our all-in-one wealth management solution, 
 Unlock the mysteries of DNA with our cutting-edge genetic analysis platform, designed for researchers, enthusiasts, and anyone curious about their biological heritage.
 
 <div align="center">
-  <img src="project_ui_images/biosphere_app/welcome_screen.jpeg" alt="Welcome Screen" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/biosphere_app/genetic_mapping_screen.jpeg" alt="Genetic Mapping" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/biosphere_app/ancestry_tracing_screen.jpeg" alt="Ancestry Tracing" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Biosphere_App/welcome_screen.jpeg" alt="Welcome Screen" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Biosphere_App/genetic_mapping_screen.jpeg" alt="Genetic Mapping" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Biosphere_App/ancestry_tracing_screen.jpeg" alt="Ancestry Tracing" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 </div>
 
 #### ✨ Key Features
@@ -99,10 +99,10 @@ Unlock the mysteries of DNA with our cutting-edge genetic analysis platform, des
 Immerse yourself in literature with our modern bookstore app, combining traditional reading with cutting-edge audio technology for the ultimate literary experience.
 
 <div align="center">
-  <img src="project_ui_images/book_store/home_screen.jpeg" alt="Home Screen" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/book_store/category_books.jpeg" alt="Category Books" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/book_store/audio_player.jpeg" alt="Audio Player" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/book_store/setting_screen.jpeg" alt="Settings Screen" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Book_Store/home_screen.jpeg" alt="Home Screen" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Book_Store/category_books.jpeg" alt="Category Books" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Book_Store/audio_player.jpeg" alt="Audio Player" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Book_Store/setting_screen.jpeg" alt="Settings Screen" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 </div>
 
 #### ✨ Key Features
@@ -125,8 +125,8 @@ Immerse yourself in literature with our modern bookstore app, combining traditio
 Safeguard your digital presence with our enterprise-grade VPN solution, featuring military-level encryption and lightning-fast global connectivity.
 
 <div align="center">
-  <img src="project_ui_images/vpn_secure/home_image.png" alt="VPN Home" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-  <img src="project_ui_images/vpn_secure/connecting_image.png" alt="Connecting State" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Vpn_Secure/home_image.png" alt="VPN Home" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Vpn_Secure/connecting_image.png" alt="Connecting State" width="250" style="margin: 10px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 </div>
 
 #### ✨ Key Features
