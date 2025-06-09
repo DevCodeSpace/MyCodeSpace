@@ -32,5 +32,5 @@ We currently provide **5 premium server locations**:
 🎥 **Demo Video**:  </br> </br>
 
 <video width="300" height="600" controls>
-  <source src="asset/secure_vpn_app_video.mp4" type="video/mp4">
+  <source src="asset/secure-vpn-app-video.mp4" type="video/mp4">
 </video>
