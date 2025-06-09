@@ -48,7 +48,7 @@ Experience the future of mobile banking with our sophisticated financial managem
 Transform your financial future with our all-in-one wealth management solution, featuring sophisticated investment tracking, goal-oriented savings, and personalized financial planning tools.
 
 <div align="center">
-  <img src="project_ui_images/banking_store/dashboard_image.jpeg" alt="Dashboard Home" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+  <img src="Project_UI_Images/Banking_Store/dashboard_image.jpeg" alt="Dashboard Home" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
   <img src="project_ui_images/banking_store/investment_portfolio.jpeg" alt="Investment Portfolio" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
   <img src="project_ui_images/banking_store/goal_details.jpeg" alt="Goal Details" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
   <img src="project_ui_images/banking_store/user_profile.jpeg" alt="User Profile" width="200" style="margin: 8px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
