@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vpn_med/Controller/vpn_controller.dart';
-import 'package:vpn_med/View/vpn_dashboard_screen.dart';
+
+import 'Controller/vpn_controller.dart';
+import 'View/vpn_dashboard_screen.dart';
 
 /// Entry point of the SecureVPN application
 void main() {

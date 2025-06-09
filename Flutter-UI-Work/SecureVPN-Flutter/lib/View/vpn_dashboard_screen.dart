@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vpn_med/Controller/vpn_controller.dart';
+
+import '../Controller/vpn_controller.dart';
 
 /// Main home screen displaying VPN connection status and controls
 /// Features modern glassmorphism UI with gradient backgrounds
@@ -123,8 +124,8 @@ class HomeScreen extends StatelessWidget {
                                       color:
                                           controller.stage.value == 'connected'
                                               ? const Color(
-                                                0xFF00D4AA,
-                                              ).withValues(alpha: 0.3)
+                                                  0xFF00D4AA,
+                                                ).withValues(alpha: 0.3)
                                               : Colors.transparent,
                                       blurRadius: 40,
                                       spreadRadius: 10,
@@ -148,18 +149,18 @@ class HomeScreen extends StatelessWidget {
                                       // Connected: Green gradient / Disconnected: Gray gradient
                                       controller.stage.value == 'connected'
                                           ? const Color(
-                                            0xFF00D4AA,
-                                          ) // Bright green
+                                              0xFF00D4AA,
+                                            ) // Bright green
                                           : const Color(
-                                            0xFF404040,
-                                          ), // Dark gray
+                                              0xFF404040,
+                                            ), // Dark gray
                                       controller.stage.value == 'connected'
                                           ? const Color(
-                                            0xFF00A085,
-                                          ) // Darker green
+                                              0xFF00A085,
+                                            ) // Darker green
                                           : const Color(
-                                            0xFF2A2A2A,
-                                          ), // Darker gray
+                                              0xFF2A2A2A,
+                                            ), // Darker gray
                                     ],
                                   ),
                                   boxShadow: [
@@ -221,9 +222,9 @@ class HomeScreen extends StatelessWidget {
                                             controller.isConnecting.value
                                                 ? 'Connecting...'
                                                 : controller.stage.value ==
-                                                    'connected'
-                                                ? 'Protected'
-                                                : 'Not Protected',
+                                                        'connected'
+                                                    ? 'Protected'
+                                                    : 'Not Protected',
                                             style: const TextStyle(
                                               color: Colors.white,
                                               fontSize: 16,
@@ -274,19 +275,18 @@ class HomeScreen extends StatelessWidget {
                             // Selected server display with tap to change
                             Obx(() {
                               // Find currently selected server configuration
-                              final selectedServer = controller.vpnConfigs
-                                  .firstWhere(
-                                    (config) =>
-                                        config.country ==
-                                        controller.selectedConfig.value,
-                                  );
+                              final selectedServer =
+                                  controller.vpnConfigs.firstWhere(
+                                (config) =>
+                                    config.country ==
+                                    controller.selectedConfig.value,
+                              );
 
                               return InkWell(
-                                onTap:
-                                    () => _showServerSelection(
-                                      context,
-                                      controller,
-                                    ),
+                                onTap: () => _showServerSelection(
+                                  context,
+                                  controller,
+                                ),
                                 borderRadius: BorderRadius.circular(16),
                                 child: Container(
                                   padding: const EdgeInsets.all(16),
@@ -457,29 +457,28 @@ class HomeScreen extends StatelessWidget {
                             duration: const Duration(milliseconds: 300),
                             child: ElevatedButton(
                               // Disable button when connecting to prevent multiple taps
-                              onPressed:
-                                  controller.isConnecting.value
-                                      ? null
-                                      : () {
-                                        if (controller.stage.value ==
-                                            'connected') {
-                                          controller
-                                              .disconnect(); // Disconnect if currently connected
-                                        } else {
-                                          controller
-                                              .startVpn(); // Connect if currently disconnected
-                                        }
-                                      },
+                              onPressed: controller.isConnecting.value
+                                  ? null
+                                  : () {
+                                      if (controller.stage.value ==
+                                          'connected') {
+                                        controller
+                                            .disconnect(); // Disconnect if currently connected
+                                      } else {
+                                        controller
+                                            .startVpn(); // Connect if currently disconnected
+                                      }
+                                    },
                               style: ElevatedButton.styleFrom(
                                 // Dynamic button color: Red when connected, Green when disconnected
                                 backgroundColor:
                                     controller.stage.value == 'connected'
                                         ? const Color(
-                                          0xFFFF4757,
-                                        ) // Red for disconnect
+                                            0xFFFF4757,
+                                          ) // Red for disconnect
                                         : const Color(
-                                          0xFF00D4AA,
-                                        ), // Green for connect
+                                            0xFF00D4AA,
+                                          ), // Green for connect
                                 foregroundColor: Colors.white,
                                 elevation: 0,
                                 shadowColor: Colors.transparent,
@@ -526,8 +525,8 @@ class HomeScreen extends StatelessWidget {
                                     controller.isConnecting.value
                                         ? 'Connecting...'
                                         : controller.stage.value == 'connected'
-                                        ? 'Disconnect'
-                                        : 'Connect',
+                                            ? 'Disconnect'
+                                            : 'Connect',
                                     style: const TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.w700,
@@ -559,77 +558,75 @@ class HomeScreen extends StatelessWidget {
       context: context,
       backgroundColor: Colors.transparent,
       isScrollControlled: true, // Allow content to determine height
-      builder:
-          (context) => Container(
-            decoration: const BoxDecoration(
-              color: Color(0xFF1A1A1D), // Dark background
-              borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      builder: (context) => Container(
+        decoration: const BoxDecoration(
+          color: Color(0xFF1A1A1D), // Dark background
+          borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Handle bar at top of bottom sheet
+            Container(
+              margin: const EdgeInsets.only(top: 12),
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: 0.3),
+                borderRadius: BorderRadius.circular(2),
+              ),
             ),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                // Handle bar at top of bottom sheet
-                Container(
-                  margin: const EdgeInsets.only(top: 12),
-                  width: 40,
-                  height: 4,
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.3),
-                    borderRadius: BorderRadius.circular(2),
-                  ),
-                ),
 
-                // Bottom sheet title
-                const Padding(
-                  padding: EdgeInsets.all(24),
-                  child: Text(
-                    'Select Server Location',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
+            // Bottom sheet title
+            const Padding(
+              padding: EdgeInsets.all(24),
+              child: Text(
+                'Select Server Location',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
                 ),
-
-                // List of all available VPN servers
-                ...controller.vpnConfigs.map(
-                  (config) => ListTile(
-                    leading: Text(
-                      config.flag,
-                      style: const TextStyle(fontSize: 24),
-                    ),
-                    title: Text(
-                      config.country,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    subtitle: Text(
-                      config.cityName,
-                      style: const TextStyle(color: Colors.white70),
-                    ),
-                    // Show check mark for currently selected server
-                    trailing:
-                        controller.selectedConfig.value == config.country
-                            ? const Icon(
-                              Icons.check_circle,
-                              color: Color(0xFF00D4AA),
-                            )
-                            : null,
-                    onTap: () async {
-                      // Change server configuration and close bottom sheet
-                      await controller.changeConfig(config.country);
-                      Get.back();
-                      // Navigator.pop(context);
-                    },
-                  ),
-                ),
-                const SizedBox(height: 24), // Bottom spacing
-              ],
+              ),
             ),
-          ),
+
+            // List of all available VPN servers
+            ...controller.vpnConfigs.map(
+              (config) => ListTile(
+                leading: Text(
+                  config.flag,
+                  style: const TextStyle(fontSize: 24),
+                ),
+                title: Text(
+                  config.country,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                subtitle: Text(
+                  config.cityName,
+                  style: const TextStyle(color: Colors.white70),
+                ),
+                // Show check mark for currently selected server
+                trailing: controller.selectedConfig.value == config.country
+                    ? const Icon(
+                        Icons.check_circle,
+                        color: Color(0xFF00D4AA),
+                      )
+                    : null,
+                onTap: () async {
+                  // Change server configuration and close bottom sheet
+                  await controller.changeConfig(config.country);
+                  Get.back();
+                  // Navigator.pop(context);
+                },
+              ),
+            ),
+            const SizedBox(height: 24), // Bottom spacing
+          ],
+        ),
+      ),
     );
   }
 }
