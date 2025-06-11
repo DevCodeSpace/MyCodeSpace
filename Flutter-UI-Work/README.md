@@ -104,9 +104,7 @@ Immerse yourself in literature with our modern bookstore app, combining traditio
 
 Revolutionize your business intelligence with our comprehensive data analytics platform, designed to provide clear business insights through powerful visualization and intelligent analysis tools.
 
-<img src="Project_UI_Images/DataBest_App/welcome_screen.png" alt="Analytics Dashboard" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/DataBest_App/dashboard_screen.png" alt="Profile & Lecture" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/DataBest_App/analytics_screen.png" alt="Marketing Landing" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/DataBest_App/welcome_screen.png" alt="Analytics Dashboard" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/DataBest_App/dashboard_screen.png" alt="Profile & Lecture" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/DataBest_App/analytics_screen.png" alt="Marketing Landing" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **📈 Advanced KPI Analytics** - Comprehensive statistics with interactive pie charts and performance metrics
@@ -127,8 +125,7 @@ Revolutionize your business intelligence with our comprehensive data analytics p
 
 Discover the beauty of nature with our elegant plant marketplace, featuring a curated collection of indoor and outdoor plants with seamless shopping and secure authentication.
 
-<img src="Project_UI_Images/Organic_Life/login_image.png" alt="Login Screen" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Organic_Life/home_image.png" alt="My Plants Collection" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/Organic_Life/login_image.png" alt="Login Screen" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/Organic_Life/home_image.png" alt="My Plants Collection" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **🛒 Plant Marketplace** - Curated collection with detailed plant information and pricing
@@ -149,9 +146,7 @@ Discover the beauty of nature with our elegant plant marketplace, featuring a cu
 
 Embark on extraordinary journeys with our stunning travel app, featuring breathtaking destinations, personalized recommendations, and seamless booking experiences for the modern explorer.
 
-<img src="Project_UI_Images/Travel_App/welcome_screen.png" alt="Welcome Screen" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Travel_App/home_dashboard.png" alt="Home Discovery" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Travel_App/destination_details.png" alt="Destination Details" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/Travel_App/welcome_screen.png" alt="Welcome Screen" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Travel_App/home_dashboard.png" alt="Home Discovery" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Travel_App/destination_details.png" alt="Destination Details" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **🏛️ Destination Discovery** - Explore stunning locations like Cabo da Roca and Eira do Serrado with detailed information
@@ -172,8 +167,7 @@ Embark on extraordinary journeys with our stunning travel app, featuring breatht
 
 Safeguard your digital presence with our enterprise-grade VPN solution, featuring military-level encryption and lightning-fast global connectivity.
 
-<img src="Project_UI_Images/Vpn_Secure/home_image.png" alt="VPN Home" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Vpn_Secure/connecting_image.png" alt="Connecting State" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/Vpn_Secure/home_image.png" alt="VPN Home" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/Vpn_Secure/connecting_image.png" alt="Connecting State" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **🔒 Military-Grade Security** - WireGuard protocol with AES-256 encryption
