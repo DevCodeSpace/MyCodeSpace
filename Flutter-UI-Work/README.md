@@ -20,9 +20,7 @@ This portfolio demonstrates expertise in creating polished, production-ready Flu
 
 Experience the future of mobile banking with our sophisticated financial management platform featuring real-time analytics, multi-account oversight, and intelligent transaction insights.
 
-<img src="Project_UI_Images/Banking_App/main_dashboard.png" alt="Main Dashboard" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Banking_App/overview_screen.png" alt="Overview Screen" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Banking_App/savings_dashboard.png" alt="Savings Dashboard" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/Banking_App/main_dashboard.png" alt="Main Dashboard" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/Banking_App/overview_screen.png" alt="Overview Screen" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/Banking_App/savings_dashboard.png" alt="Savings Dashboard" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **📊 Advanced Analytics** - Real-time balance tracking with interactive charts and performance metrics
@@ -43,10 +41,7 @@ Experience the future of mobile banking with our sophisticated financial managem
 
 Transform your financial future with our all-in-one wealth management solution, featuring sophisticated investment tracking, goal-oriented savings, and personalized financial planning tools.
 
-<img src="Project_UI_Images/Banking_Store/dashboard_image.png" alt="Dashboard Home" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Banking_Store/investment_portfolio.png" alt="Investment Portfolio" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Banking_Store/goal_details.png" alt="Goal Details" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Banking_Store/user_profile.png" alt="User Profile" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/Banking_Store/dashboard_image.png" alt="Dashboard Home" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Banking_Store/investment_portfolio.png" alt="Investment Portfolio" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Banking_Store/goal_details.png" alt="Goal Details" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Banking_Store/user_profile.png" alt="User Profile" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **💰 Smart Savings Engine** - Automated savings with intelligent round-up features
@@ -67,9 +62,7 @@ Transform your financial future with our all-in-one wealth management solution, 
 
 Unlock the mysteries of DNA with our cutting-edge genetic analysis platform, designed for researchers, enthusiasts, and anyone curious about their biological heritage.
 
-<img src="Project_UI_Images/Biosphere_App/welcome_screen.png" alt="Welcome Screen" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Biosphere_App/genetic_mapping_screen.png" alt="Genetic Mapping" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Biosphere_App/ancestry_tracing_screen.png" alt="Ancestry Tracing" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/Biosphere_App/welcome_screen.png" alt="Welcome Screen" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/Biosphere_App/genetic_mapping_screen.png" alt="Genetic Mapping" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 10px;"/> <img src="Project_UI_Images/Biosphere_App/ancestry_tracing_screen.png" alt="Ancestry Tracing" width="250" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **🧬 Advanced Genomics** - Sophisticated genetic mapping with interactive 3D DNA visualization
@@ -90,10 +83,7 @@ Unlock the mysteries of DNA with our cutting-edge genetic analysis platform, des
 
 Immerse yourself in literature with our modern bookstore app, combining traditional reading with cutting-edge audio technology for the ultimate literary experience.
 
-<img src="Project_UI_Images/Book_Store/home_screen.png" alt="Home Screen" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Book_Store/category_books.png" alt="Category Books" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Book_Store/audio_player.png" alt="Audio Player" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
-<img src="Project_UI_Images/Book_Store/setting_screen.png" alt="Settings Screen" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-bottom: 10px;"/>
+<img src="Project_UI_Images/Book_Store/home_screen.png" alt="Home Screen" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Book_Store/category_books.png" alt="Category Books" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Book_Store/audio_player.png" alt="Audio Player" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin-right: 8px;"/> <img src="Project_UI_Images/Book_Store/setting_screen.png" alt="Settings Screen" width="200" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
 
 #### ✨ Key Features
 - **📖 Vast Digital Library** - Extensive catalog with intelligent categorization and search
