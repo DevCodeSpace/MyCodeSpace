@@ -3,11 +3,8 @@
 Beautiful Flutter app with stunning animations and modern UI design. Experience smooth transitions, interactive dashboards, and delightful micro-interactions.
 
 ### App Animation Showcase 🎯
-<div align="center">
-<video width="300" height="600" controls>
-  <source src="assets/readme_video/animation_video.mp4" type="video/mp4">
-</video>
-</div>
+
+<img src="assets/readme_video/animation-video.gif" alt="VPN App Demo" height="600" />
 
 ## ✨ Features
 

@@ -3,11 +3,9 @@
 Beautiful Flutter profile app with stunning neumorphic UI and smooth animations. Experience elegant user profiles with advanced animation techniques and modern design patterns.
 
 ### App Animation Showcase 🎯
-<div align="center">
-<video width="300" height="600" controls>
-  <source src="assets/readme_video/profimotion.mp4" type="video/mp4">
-</video>
-</div>
+
+<img src="assets/readme_video/profimotion.gif" alt="VPN App Demo" height="600" />
+
 
 ## ✨ Features
 

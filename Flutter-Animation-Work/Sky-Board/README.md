@@ -3,9 +3,9 @@
 Beautiful Flutter dashboard app with stunning neumorphic UI and smooth animations. Experience elegant data visualization with advanced animation techniques and modern design patterns.
 
 ### App Animation Showcase 🎯
-<video width="300" height="600" controls>
-  <source src="assets/readme_video/dashboard_animation.mp4" type="video/mp4">
-</video>
+
+<img src="assets/readme_video/dashboard-animation.gif" alt="VPN App Demo" height="600" />
+
 
 ## ✨ Features
 

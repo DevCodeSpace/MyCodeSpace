@@ -4,9 +4,7 @@ Beautiful Flutter login app with stunning glass morphism UI and smooth animation
 
 ### App Animation Showcase 🎯
 
-<video width="300" height="600" controls>
-  <source src="assets/readme_video/login_animation.mp4" type="video/mp4">
-</video>
+<img src="assets/readme_video/login_animation.gif" alt="VPN App Demo" height="600" />
 
 
 ## ✨ Features

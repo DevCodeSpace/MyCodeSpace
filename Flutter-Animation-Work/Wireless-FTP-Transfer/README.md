@@ -1,150 +1,75 @@
-# 📂 Wireless FTP File Transfer App - Interactive Animations
+# 🎨 Wireless FTP Transfer - Flutter Animated App
 
-> Experience seamless file sharing with our cutting-edge wireless FTP application featuring stunning animations and intuitive user interface design.
+Beautiful Flutter app with stunning animations and modern UI design. Experience smooth transitions, interactive dashboards, and delightful micro-interactions.
 
----
+### App Animation Showcase 🎯
 
-## 🎬 Application Animations Showcase
+<img src="assets/readme_video/wireless-ftp-transfer.gif" alt="VPN App Demo"  height="600"/>
+    
 
-Discover the smooth, engaging animations that make file transfers effortless and enjoyable. Our app combines functionality with beautiful visual feedback to create an exceptional user experience.
+## ✨ Features
 
----
+🚀 **Transfer Method Selection** - Interactive cards with zoom-in animations for WiFi and Cloud options </br>
+🎯 **Informative Pop-ups** - "Coming Soon!" pop-up with elastic rocket animation and ripple-effect buttons </br>
+📊 **Visual Feedback Indicators** - Checkmark icons with bounce animations for key features like "Ultra-fast" and "Secure" </br>
+🎨 **Color-Coded Design** - Gradient backgrounds (blue for WiFi, green for Cloud) with modern shadows </br>
+📱 **Smooth Transitions** - Fade-in effects for titles, cards, and bullet points across screens </br>
 
-## 🚀 Splash Screen
-### *Dynamic Loading Experience*
+## 📱 App Structure
 
-Welcome users with an elegant splash screen that sets the tone for a premium file transfer experience. The loading animation provides visual feedback while the app initializes all necessary components.
+### 🎪 Splash Screen
+🎯 Title "Wireless FTP File Transfer Made Easy" with elastic logo scaling and rotation effects </br>
+🎯 Subtitle "Fast • Secure • Reliable" with subtle fade-in animation </br>
+🎯 Animated progress bar with gradient background, pulsing effect during "Loading..." state </br>
+🎯 Circular icon with folder and WiFi symbols, rotating and scaling with elastic animation </br>
+🎯 Auto-navigation with fade transitions to the next screen </br>
 
-<img src="assets/splash_screen.gif" alt="Splash Screen Animation" width="300" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+### 🎨 Transfer Methods Screen  
+🎯 Title "Transfer Methods" with subtle fade-in effect </br>
+🎯 Info card with light bulb icon and description "Choose the best method based on your needs. Both options provide secure and reliable file transfer," sliding in from the left </br>
+🎯 WiFi Transfer card with blue gradient background, featuring checkmark icons for "Ultra-fast," "No internet," and "Same network," with zoom-in animation </br>
+🎯 Cloud Transfer card with green gradient background, featuring checkmark icons for "Remote access," "Link sharing," and "Secure," with zoom-in animation </br>
 
-#### ✨ Animation Features
-- **🎯 Brand Introduction** - Smooth logo reveal with fade-in effects
-- **⚡ Loading Indicators** - Progressive loading animation with visual feedback
-- **🎨 Modern Design** - Clean, minimalist interface with elegant transitions
-- **📱 Responsive Layout** - Optimized for all screen sizes and orientations
+### 📱 Screen 3: Transfer Methods Screen with Pop-up
+🎯 Title "Transfer Methods" with subtle fade-in effect (same as Screen 1) </br>
+🎯 Info card with light bulb icon and description, sliding in from the left (same as Screen 1) </br>
+🎯 WiFi Transfer card with blue gradient background, featuring checkmark icons, with zoom-in animation (same as Screen 1) </br>
+🎯 Pop-up "Coming Soon!" card with rocket icon, elastic scale animation, and text "We’re working hard to bring you this exciting new feature. Stay tuned for updates!" fading in </br>
+🎯 Pop-up buttons "Cloud Storage," "Sync," and "Secure" with subtle bounce animation </br>
+🎯 "Got it" button with ripple effect on click, triggering a fade-out transition for the pop-up </br>
 
-#### 🛠️ Technical Implementation
-- Custom animation controllers with easing curves
-- Optimized performance with efficient asset loading
-- Seamless transition to onboarding flow
-- Memory-efficient animation rendering
+## 🎨 Animation Magic
 
----
+### Core Techniques
+🔥 **AnimationController** - Lifecycle management </br>
+🔥 **Tween & Curves** - Natural motion effects </br>
+🔥 **Transform** - Scale, rotate & translate widgets </br>
 
-## 📚 Onboarding Screen
-### *Interactive User Journey*
+### Advanced Features
+⚡ **Staggered Animations** - Sequential effects with delays </br>
+⚡ **Elastic Curves** - Bouncy, spring-like motions </br>
+⚡ **Custom Transitions** - Smooth page navigation </br>
 
-Guide new users through the app's powerful features with engaging onboarding animations that demonstrate key functionality and build user confidence.
+## 🛠️ Project Structure
 
-<img src="assets/onboarding_screen.gif" alt="Onboarding Animation" width="300" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
+```
+lib/
+├── main.dart                 # Entry point
+└── View/
+    ├── splash_screen.dart    # Animated splash
+    ├── onboring_screen.dart  # Onboarding flow
+    └── dashboard_screen.dart # Interactive dashboard
+```
 
-#### ✨ Animation Features
-- **📖 Feature Showcase** - Step-by-step introduction to core functionality
-- **🎭 Interactive Elements** - Engaging micro-interactions and page transitions
-- **🎯 User Guidance** - Clear visual cues directing user attention
-- **📱 Swipe Gestures** - Smooth page transitions with parallax effects
+## 🎯 Key Highlights
 
-#### 🛠️ Technical Implementation
-- Page view controller with custom transition animations
-- Gesture-driven navigation with spring physics
-- Dynamic content loading with fade transitions
-- Accessibility-compliant animation timing
+💡 **Performance Optimized** - Efficient rebuilds with AnimatedBuilder </br>
+💡 **Memory Safe** - Proper controller disposal </br>
+💡 **Responsive Design** - Works on all devices </br>
+💡 **Modern Architecture** - Clean, maintainable code </br>
 
----
 
-## 🏠 Dashboard Screen
-### *Command Center Experience*
-
-Experience the heart of the application with a dynamic dashboard that provides real-time file transfer status, server management, and intuitive navigation controls.
-
-<img src="assets/dashboard_screen.gif" alt="Dashboard Animation" width="300" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);"/>
-
-#### ✨ Animation Features
-- **📊 Real-Time Updates** - Live progress indicators and status animations
-- **🔄 File Operations** - Smooth upload/download progress visualizations
-- **🌐 Server Status** - Dynamic connection indicators with state transitions
-- **📁 File Management** - Intuitive drag-and-drop animations and folder interactions
-
-#### 🛠️ Technical Implementation
-- Real-time data binding with animated state changes
-- Custom progress indicators with smooth interpolation
-- Background task animations with user feedback
-- Optimized list animations for large file collections
-
----
-
-## 🎨 Design Philosophy
-
-### Animation Principles
-- **🌟 Purposeful Motion** - Every animation serves a functional purpose
-- **⚡ Performance First** - 60fps animations with efficient rendering
-- **🎯 User-Centric** - Animations enhance usability without overwhelming
-- **📱 Platform Native** - Following Material Design and iOS guidelines
-
-### Technical Excellence
-- **🔧 Optimized Performance** - GPU-accelerated animations with minimal CPU usage
-- **🎛️ Configurable Settings** - User-controllable animation preferences
-- **♿ Accessibility Support** - Respects system accessibility settings
-- **🔋 Battery Efficient** - Smart animation scheduling to preserve battery life
 
 ---
 
-## 🚀 Key Features Highlighted Through Animation
-
-### File Transfer Capabilities
-- **📤 Wireless Upload** - Drag-and-drop file uploads with progress visualization
-- **📥 Smart Download** - Queue management with priority-based animations
-- **🔄 Sync Operations** - Real-time synchronization with status indicators
-- **📁 Folder Management** - Hierarchical navigation with smooth transitions
-
-### Server Management
-- **🌐 Auto-Discovery** - Network scanning with dynamic server detection
-- **🔐 Secure Connections** - SSL/TLS setup with security status animations
-- **⚙️ Configuration** - Settings panels with contextual help animations
-- **📊 Monitoring** - Real-time performance metrics with chart animations
-
----
-
-## 📱 Cross-Platform Excellence
-
-### iOS Implementation
-- **🍎 Native Feel** - iOS-specific animation curves and timing
-- **🎨 Design Integration** - Seamless integration with iOS design language
-- **📱 Device Optimization** - Tailored animations for different iPhone models
-
-### Android Implementation
-- **🤖 Material Design** - Following latest Material Design 3 principles
-- **🎭 Custom Transitions** - Hero animations and shared element transitions
-- **📐 Adaptive Layout** - Responsive animations for various screen densities
-
----
-
-## 🔧 Animation Technical Stack
-
-### Framework & Libraries
-- **Flutter Animation Framework** - Leveraging Flutter's powerful animation system
-- **Custom Animation Controllers** - Fine-tuned control over animation timing
-- **Physics-Based Animations** - Natural spring and bounce effects
-- **Lottie Integration** - Vector-based animations for scalable graphics
-
-### Performance Optimization
-- **🎯 Efficient Rendering** - Minimal overdraw with optimized widget trees
-- **⚡ Smart Caching** - Animation frame caching for repeated sequences
-- **🔋 Battery Awareness** - Adaptive animation quality based on battery level
-- **📊 Performance Monitoring** - Real-time FPS monitoring and optimization
-
----
-
-## 📞 Get Started
-
-Ready to experience seamless wireless file transfers? Download the app and discover how animations can make file management both powerful and delightful.
-
-**Key Benefits:**
-- 🚀 **Fast Setup** - Get started in under 30 seconds
-- 🔒 **Secure Transfer** - End-to-end encryption for all file operations
-- 🌐 **Cross-Platform** - Works seamlessly across all devices
-- 💡 **Intuitive Design** - Learn by using with guided animations
-
----
-
-*Built with ❤️ using Flutter • Animations that bring functionality to life*
+*Built with ❤️ DevCodeSpace using Flutter • Showcasing innovation in mobile development*
