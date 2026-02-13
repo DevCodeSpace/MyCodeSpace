@@ -1,0 +1,1300 @@
+/* =====================================================
+   GLOBAL ANIMATIONS (USED BY ALL HERO SECTIONS)
+   ===================================================== */
+
+/* ---------- KEYFRAMES ---------- */
+
+@keyframes blob {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes floatSlow {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -20px);
+  }
+}
+
+@keyframes pulseSlow {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulseGentle {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes gradientText {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradientFlow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradientSlide {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes bounceIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out both;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out both;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 0.8s ease-out both;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.8s ease-out both;
+}
+
+.animate-scale-fade-in {
+  animation: scaleFadeIn 0.8s ease-out both;
+}
+
+.animate-fade-scale-in {
+  animation: fadeScaleIn 0.6s ease-out both;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: floatSlow 8s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 4s ease-in-out infinite;
+}
+
+.animate-pulse-gentle {
+  animation: pulseGentle 4s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.animate-bounce-in {
+  animation: bounceIn 0.6s ease-out both;
+}
+
+.animate-gradient-text,
+.animate-gradient-flow,
+.animate-gradient-slide {
+  background-size: 200% 200%;
+  animation: gradientText 3s ease infinite;
+}
+
+/* ---------- HELPERS ---------- */
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* ---------- BACKGROUND PATTERNS ---------- */
+
+.bg-grid-pattern {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.bg-grid-white {
+  background-image:
+    linear-gradient(white 1px, transparent 1px),
+    linear-gradient(90deg, white 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* =====================================================
+   HERO SECTION BUTTON ANIMATION CSS
+   ===================================================== */
+
+@keyframes megaGlow {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.1) rotate(180deg);
+  }
+}
+
+@keyframes spinIn {
+  from {
+    transform: rotate(90deg) scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes bounceSubtle {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-2px) scale(1.05);
+  }
+}
+
+@keyframes borderRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradientWave {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes pulseSmooth {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes shimmerSlide {
+  to {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes starTwinkle {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes starTwinkleDelayed {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes bounceIcon {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(8deg);
+  }
+}
+
+@keyframes checkPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes particleFloat {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(8px, -8px) scale(1.1);
+  }
+  50% {
+    transform: translate(-4px, -12px) scale(0.9);
+  }
+  75% {
+    transform: translate(-8px, -6px) scale(1.05);
+  }
+}
+
+@keyframes particleFloatDelayed {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(-8px, 8px) scale(1.1);
+  }
+  50% {
+    transform: translate(4px, 12px) scale(0.9);
+  }
+  75% {
+    transform: translate(8px, 6px) scale(1.05);
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+.animate-mega-glow {
+  animation: megaGlow 6s ease-in-out infinite;
+}
+
+.animate-spin-in {
+  animation: spinIn 0.3s ease-out both;
+}
+
+.animate-bounce-subtle {
+  animation: bounceSubtle 2s ease-in-out infinite;
+}
+
+.animate-border-rotate {
+  animation: borderRotate 10s linear infinite;
+  transform-origin: center;
+}
+
+.animate-gradient-wave {
+  background-size: 200% 200%;
+  animation: gradientWave 4s ease infinite;
+}
+
+.animate-pulse-smooth {
+  animation: pulseSmooth 3s ease-in-out infinite;
+}
+
+.animate-shimmer-slide {
+  animation: shimmerSlide 2s ease-in-out infinite;
+}
+
+.animate-star-twinkle {
+  animation: starTwinkle 2s ease-in-out infinite;
+}
+
+.animate-star-twinkle-delayed {
+  animation: starTwinkleDelayed 2s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.animate-bounce-icon {
+  animation: bounceIcon 3s ease-in-out infinite;
+}
+
+.animate-check-pop {
+  animation: checkPop 0.5s ease-out both;
+}
+
+.animate-particle-float {
+  animation: particleFloat 5s ease-in-out infinite;
+}
+
+.animate-particle-float-delayed {
+  animation: particleFloatDelayed 5s ease-in-out infinite;
+  animation-delay: 2.5s;
+}
+
+/* =====================================================
+   SERVICE SECTION 4 ANIMATION
+   ===================================================== */
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Utility class */
+.animate-slide-in {
+  animation: slideIn 0.6s ease-out both;
+}
+
+/* =====================================================
+   SERVICE SECTION 5 – SCROLLBAR HIDE UTILITY
+   ===================================================== */
+
+/* Chrome, Safari, Edge */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* IE, Edge (old), Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE & old Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* =====================================================
+   SERVICE SECTION 1 – FLOAT ANIMATION
+   ===================================================== */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Utility class */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* =====================================================
+   MAIN HEADER ANIMATIONS
+   ===================================================== */
+
+@keyframes headerFadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes headerSlideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-header-fade-in-down {
+  animation: headerFadeInDown 0.6s ease-out both;
+}
+
+.animate-header-slide-in-left {
+  animation: headerSlideInLeft 0.6s ease-out both;
+}
+
+/* =====================================================
+   MAIN FAQ – ADVANCED ANIMATIONS
+   ===================================================== */
+
+/* ---------- KEYFRAMES ---------- */
+
+@keyframes megaPulse {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes borderSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounceSubtle {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes pulseSoft {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes twinkleDelayed {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceGentle {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(5deg);
+  }
+}
+
+@keyframes check {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes floatOrb {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(5px, -8px) scale(1.1);
+  }
+  50% {
+    transform: translate(-3px, -15px) scale(0.9);
+  }
+  75% {
+    transform: translate(-8px, -8px) scale(1.05);
+  }
+}
+
+@keyframes floatOrbDelayed {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(-5px, 8px) scale(1.1);
+  }
+  50% {
+    transform: translate(3px, 15px) scale(0.9);
+  }
+  75% {
+    transform: translate(8px, 8px) scale(1.05);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+.animate-mega-pulse {
+  animation: megaPulse 4s ease-in-out infinite;
+}
+
+.animate-border-spin {
+  animation: borderSpin 8s linear infinite;
+  transform-origin: center;
+}
+
+/* NOTE:
+   bounceSubtle already exists globally in a similar form.
+   This version is softer, but safe to reuse.
+*/
+.animate-bounce-subtle {
+  animation: bounceSubtle 2s ease-in-out infinite;
+}
+
+/* gradientFlow already exists globally → REUSE */
+.animate-gradient-flow {
+  background-size: 200% 200%;
+  animation: gradientFlow 4s ease infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulseSoft 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+.animate-twinkle {
+  animation: twinkle 2s ease-in-out infinite;
+}
+
+.animate-twinkle-delayed {
+  animation: twinkleDelayed 2s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.animate-bounce-gentle {
+  animation: bounceGentle 3s ease-in-out infinite;
+}
+
+.animate-check {
+  animation: check 0.5s ease-out both;
+}
+
+.animate-float-orb {
+  animation: floatOrb 6s ease-in-out infinite;
+}
+
+.animate-float-orb-delayed {
+  animation: floatOrbDelayed 6s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+.animate-fade-in-scale {
+  animation: fadeInScale 0.3s ease-out both;
+}
+
+/* =====================================================
+   MAIN CONTACT US – ANIMATIONS
+   ===================================================== */
+
+/* ---------- KEYFRAMES (NEW / UNIQUE) ---------- */
+
+@keyframes borderFlow {
+  0%,
+  100% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes gradientShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes sparkleDelayed {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes progress {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes pulseRing {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+@keyframes floatParticle {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(10px, -10px);
+  }
+  50% {
+    transform: translate(-5px, -20px);
+  }
+  75% {
+    transform: translate(-10px, -10px);
+  }
+}
+
+@keyframes floatParticleDelayed {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-10px, 10px);
+  }
+  50% {
+    transform: translate(5px, 20px);
+  }
+  75% {
+    transform: translate(10px, 10px);
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+/* Reuses existing pulseGlow */
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-border-flow {
+  animation: borderFlow 3s linear infinite;
+}
+
+/* Reuses gradient system */
+.animate-gradient-shift {
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+}
+
+/* Reuses pulseSlow */
+.animate-pulse-slow {
+  animation: pulseSlow 2s ease-in-out infinite;
+}
+
+.animate-sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.animate-sparkle-delayed {
+  animation: sparkleDelayed 2s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+/* Reuses bounceGentle */
+.animate-bounce-gentle {
+  animation: bounceGentle 2s ease-in-out infinite;
+}
+
+.animate-progress {
+  animation: progress 2s ease-in-out infinite;
+}
+
+.animate-pulse-ring {
+  animation: pulseRing 2s ease-in-out infinite;
+}
+
+.animate-float-particle {
+  animation: floatParticle 6s ease-in-out infinite;
+}
+
+.animate-float-particle-delayed {
+  animation: floatParticleDelayed 6s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+/* =====================================================
+   CONTACT SECTION 1 – ANIMATIONS
+   ===================================================== */
+
+/* ---------- KEYFRAMES (ONLY WHAT’S NEW) ---------- */
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceSlow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+.animate-fade-in-left {
+  animation: fadeInLeft 0.8s ease-out both;
+}
+
+.animate-fade-in-right {
+  animation: fadeInRight 0.8s ease-out both;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out both;
+}
+
+/* fadeIn already exists globally → reuse */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out both;
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 2s ease-in-out infinite;
+}
+
+/* gradient animation pattern reused */
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+/* =====================================================
+   CONTACT SECTION 2 – ANIMATIONS
+   ===================================================== */
+
+/* ---------- KEYFRAMES (ONLY NEW / DIFFERENT) ---------- */
+
+/* NOTE:
+   `blob` already exists globally.
+   This version has a different movement path,
+   so we define a section-specific variant.
+*/
+@keyframes blobWide {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(20px, -50px) scale(1.1);
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  75% {
+    transform: translate(50px, 50px) scale(1.05);
+  }
+}
+
+/* fadeInDown already exists globally → reuse */
+
+/* floatUp is just fade-in-up behavior */
+@keyframes floatUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* scaleUp is a delayed scale-in */
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pingSlow {
+  75%,
+  100% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+
+/* gradientX follows existing gradient pattern */
+@keyframes gradientX {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+/* Section-specific blob to avoid overriding global blob */
+.animate-blob-wide {
+  animation: blobWide 7s infinite;
+}
+
+/* Already global → reuse */
+.animate-fade-in-down {
+  animation: fadeInDown 0.8s ease-out both;
+}
+
+/* New helpers */
+.animate-float-up {
+  animation: floatUp 0.6s ease-out both;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.8s ease-out 0.4s both;
+}
+
+.animate-ping-slow {
+  animation: pingSlow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradientX 3s ease infinite;
+}
+
+/* Delays already global */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* =====================================================
+   CONTACT SECTION 3 – ANIMATIONS
+   ===================================================== */
+
+/* ---------- KEYFRAMES (ONLY NEW) ---------- */
+
+/* slideDown is a vertical entrance from top */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* slideRight / slideLeft are softer directional slides */
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* expand animation (used for underline / divider) */
+@keyframes expand {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+.animate-slide-down {
+  animation: slideDown 0.8s ease-out both;
+}
+
+.animate-slide-right {
+  animation: slideRight 0.8s ease-out both;
+}
+
+.animate-slide-left {
+  animation: slideLeft 0.8s ease-out both;
+}
+
+/* Already global → reuse */
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out both;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.animate-expand {
+  animation: expand 0.3s ease-out both;
+}
+
+/* pulseSlow already exists globally → reuse */
+.animate-pulse-slow {
+  animation: pulseSlow 3s ease-in-out infinite;
+}
+
+/* =====================================================
+   CONTACT SECTION 4 – ANIMATIONS
+   ===================================================== */
+
+@keyframes slideInDownSoft {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotateSlow {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+/* ---------- UTILITY CLASSES ---------- */
+
+/* Reuse existing fadeInScale */
+.animate-fade-scale {
+  animation: fadeInScale 0.6s ease-out both;
+}
+
+.animate-slide-in {
+  animation: slideInDownSoft 0.8s ease-out 0.2s both;
+}
+
+.animate-fade-slide-up {
+  animation: fadeSlideUp 0.5s ease-out both;
+}
+
+.animate-rotate-slow {
+  animation: rotateSlow 3s ease-in-out infinite;
+}
+
+/* Delayed reuse of fadeInScale */
+.animate-fade-in-delayed {
+  animation: fadeInScale 0.8s ease-out 0.4s both;
+}
