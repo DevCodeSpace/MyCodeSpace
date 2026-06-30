@@ -1,0 +1,12 @@
+export 'package:ai_avtar_chat/configuration/app_configuration.dart';
+export 'package:ai_avtar_chat/core/helpers/api_logger.dart';
+export 'package:ai_avtar_chat/core/helpers/settings.dart';
+export 'package:ai_avtar_chat/modules/assistant/controller/assistant_controller.dart';
+export 'package:ai_avtar_chat/services/rest_services.dart';
+export 'package:ai_avtar_chat/services/service_config.dart';
+export 'package:flutter/material.dart';
+export 'package:flutter_screenutil/flutter_screenutil.dart';
+export 'package:flutter_svg/svg.dart';
+export 'package:get/get.dart';
+export 'package:google_fonts/google_fonts.dart';
+export 'package:velocity_x/velocity_x.dart';
