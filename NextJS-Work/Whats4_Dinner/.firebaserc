@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "whats4dinner-37c80"
+  },
+  "targets": {
+    "whats4dinner-37c80": {
+      "hosting": {
+        "welcome": [
+          "whats4dinner-landing"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

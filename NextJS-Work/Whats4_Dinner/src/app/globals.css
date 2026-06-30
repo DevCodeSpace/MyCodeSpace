@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── What's 4 Dinner  design tokens ── */
+  --color-primary: #E63946;
+  --color-primary-dark: #A1131D;
+  --color-primary-deeper: #3B070B;
+  --color-secondary: #A1131D;
+
+  /* Neutrals */
+  --color-white: #FFFFFF;
+  --color-bg: #FAFAFA;
+  --color-soft-gray: #F2F2F2;
+  --color-border: #4A5568;
+  --color-primary-text: #1A1A1A;
+  --color-slate-gray: #4A5568;
+  --color-text-muted: #4A5568;
+
+  /* Accent */
+  --color-avocado: #7CB47A;
+  --color-avocado-light: #D4EDDA;
+  --color-citrus: #F5A623;
+
+  /* Semantic */
+  --color-success: #28A745;
+  --color-warning: #FFC107;
+  --color-error: #DC3545;
+
+  /* Fonts */
+  --font-sans: var(--font-poppins);
+  --font-body: var(--font-inter);
+}
+
+:root {
+  --primary: #E63946;
+  --primary-dark: #A1131D;
+  --primary-deeper: #3B070B;
+  --bg: #FAFAFA;
+  --soft-gray: #F2F2F2;
+  --border: #4A5568;
+  --text: #1A1A1A;
+  --text-muted: #4A5568;
+  --avocado: #7CB47A;
+  --avocado-light: #D4EDDA;
+  --citrus: #F5A623;
+  --success: #28A745;
+  --warning: #FFC107;
+  --error: #DC3545;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  background-color: #FAFAFA;
+  color: #1A1A1A;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), "Poppins", sans-serif;
+}
+
+/* Ticker animation */
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-ticker {
+  animation: ticker 28s linear infinite;
+}
+
+/* Gradient text utility  brand red gradient */
+.gradient-text {
+  background: linear-gradient(135deg, #E63946, #A1131D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Feature card style */
+.feature-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(230, 57, 70, 0.15);
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+.feature-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(230, 57, 70, 0.35);
+}
+
+/* Glow effect */
+.glow-red {
+  box-shadow:
+    0 0 20px rgba(230, 57, 70, 0.3),
+    0 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Pulse animation */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.4);
+  }
+  50% {
+    opacity: 0.8;
+    box-shadow: 0 0 0 8px rgba(230, 57, 70, 0);
+  }
+}
+.pulse-dot {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Float animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.float-animation {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Fade in up */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Typing dots */
+@keyframes typing-bounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  40% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+.typing-dot {
+  animation: typing-bounce 1.2s ease-in-out infinite;
+}

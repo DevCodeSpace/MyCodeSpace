@@ -1,0 +1,26 @@
+export const siteConfig = {
+  name: "TransportPro",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://transportationnextjs.vercel.app",
+  title: "TransportPro — Transport & Logistics Management Software",
+  description:
+    "India's all-in-one transport management software. Manage shipment loading, delivery tracking, GST invoicing, freight calculation, financial reports, and real-time analytics  11 powerful modules in one platform.",
+  keywords: [
+    "transport management software India",
+    "logistics management software",
+    "freight management system",
+    "GST billing software transport",
+    "delivery tracking software",
+    "shipment management software",
+    "fleet management software India",
+    "truck freight calculation",
+    "transport billing software",
+    "logistics analytics platform",
+    "transport ERP India",
+    "consignment management software",
+    "taka bale management software",
+    "textile transport software",
+    "transport invoice software",
+  ],
+  ogImage: "/images/og-image.jpg",
+  twitterHandle: "@TransportPro",
+};
