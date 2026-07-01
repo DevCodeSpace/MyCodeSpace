@@ -1,6 +1,6 @@
 # Flutter AI Automation
 
-> A collection of Flutter applications that explore practical AI-assisted workflows: live avatar conversations, restaurant ordering and printing, OMR sheet evaluation, and resume screening.
+> A collection of Flutter applications that explore practical AI-assisted workflows: live avatar conversations, restaurant ordering and printing, OMR sheet evaluation, resume screening, and on-device OCR text scanning.
 
 ---
 
@@ -115,6 +115,31 @@ Project README: [Ai_Resume_Screening_sSytem-Automation/README.md](Ai_Resume_Scre
 
 ---
 
+## TextLens Pro - OCR Text Scanner & Finder
+
+Premium OCR app that extracts text from live camera frames or photos using on-device machine learning, ideal for digitizing documents, grabbing text from signs, or searching within scanned pages.
+
+<img src="Textlens_Pro/assets/logo/text_lens_pro_logo.png" alt="TextLens Pro" height="220" />
+
+### Key Features
+
+- **Live Scanner** - real-time text detection and highlighting through the camera viewfinder.
+- **Photo to Text** - extract text from an existing photo or a freshly captured picture.
+- **On-device OCR** - powered by `google_mlkit_text_recognition` for fast, offline, and privacy-friendly recognition.
+- **Text highlighting** - recognized text blocks/lines highlighted directly on the image with a custom overlay painter.
+- **Copy, share & open links** - copy extracted text, share via `share_plus`, or open detected URLs with `url_launcher`.
+
+### Technical Highlights
+
+- Google ML Kit text recognition wrapped in a dedicated OCR service.
+- Camera and image picker integration for live and photo-based scanning.
+- Custom overlay painter for on-image text highlighting.
+- All processing happens on-device - no image or text ever leaves the phone.
+
+Project README: [Textlens_Pro/README.md](Textlens_Pro/README.md)
+
+---
+
 ## Workspace Setup
 
 Each project is a separate Flutter app. Run commands from the specific project folder:
@@ -143,6 +168,7 @@ dart format .
 | `Dineassist-Ai` | Restaurant ordering and printing | Firebase, QR, ESC/POS, Node print bridge |
 | `Smart_Omr_Evaluator` | OMR answer-sheet evaluation | File upload, Dio API, image picking |
 | `Ai_Resume_Screening_sSytem-Automation` | Resume screening automation | PDF parsing, AI API, result scoring |
+| `Textlens_Pro` | OCR text scanner and finder | Google ML Kit, camera, on-device OCR |
 
 ---
 
