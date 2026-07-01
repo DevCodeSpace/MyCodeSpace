@@ -103,14 +103,6 @@ Tracks time spent in each installed app, visualizes usage trends, and enforces d
 
 ---
 
-## 🔎 [TextLens Pro — OCR Text Scanner](Textlens_Pro)
-
-A premium OCR app that extracts text from live camera frames or photos using on-device ML — for digitizing documents and grabbing text from the real world.
-
-**Highlights:** Live & photo-based OCR (ML Kit) · text highlighting overlay · copy, share & open links · fully offline
-
----
-
 ## 🗳️ [Team Awards Voting System](Voting_System)
 
 A Firebase-backed peer-recognition app where team members vote for colleagues across fun award categories, with one submission per person and live results.
