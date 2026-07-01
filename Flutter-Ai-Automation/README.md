@@ -146,4 +146,5 @@ dart format .
 
 ---
 
-Built with Flutter by DevCodeSpace.
+
+*Built with ❤️ by DevCodeSpace using Flutter*
