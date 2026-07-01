@@ -1,0 +1,55 @@
+name: screencast_pro
+description: "ScreenCast Pro — streams Android screen to Mac/PC/Android receivers over WiFi using WebSocket."
+publish_to: 'none'
+# Flutter SDK : 3.41.9
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # GetX — state management, navigation, and dependency injection (MVC glue)
+  get: ^4.6.6
+
+  # WiFi network info — used to read SSID and device IP for UDP subnet broadcast
+  network_info_plus: ^6.0.1
+
+  # Connectivity — check whether the device is on WiFi before scanning
+  connectivity_plus: ^6.1.4
+
+  # Runtime permissions — location permission needed on Android to read WiFi SSID
+  permission_handler: ^11.3.1
+  wakelock_plus: ^1.2.4
+  qr_flutter: ^4.1.0   
+
+  # Share Plus — triggers native OS share sheets (Quick Share / AirDrop)
+  share_plus: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700

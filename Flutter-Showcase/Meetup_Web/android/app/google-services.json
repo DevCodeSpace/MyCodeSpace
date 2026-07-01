@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "679923746617",
+    "project_id": "webrtc-demo-e307f",
+    "storage_bucket": "webrtc-demo-e307f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679923746617:android:e3fb1d043d3c867ce54ae8",
+        "android_client_info": {
+          "package_name": "com.example.web_rtc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679923746617-o7365srhnbeuuuutvrbs9p0p9gu025na.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.web_rtc",
+            "certificate_hash": "5f01b76fb0ca51ed0ed0bbf1c85eb095e749de30"
+          }
+        },
+        {
+          "client_id": "679923746617-ofhmlhqi9b37j4m7fhamgueiqth6j9as.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.web_rtc",
+            "certificate_hash": "61a4e2a862e20acee9c014d916f9d092f730ecba"
+          }
+        },
+        {
+          "client_id": "679923746617-p65bruli232qc8lao9dnn5kr0mih0spg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.web_rtc",
+            "certificate_hash": "6ac84390e59da4c92855c60eeb1daaa04f249235"
+          }
+        },
+        {
+          "client_id": "679923746617-lcqhlboak99avcn1gbe1f1gqmr33qjed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpcCOEn_J6QIESQEZpU3yo6K0ke2W4F2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679923746617-lcqhlboak99avcn1gbe1f1gqmr33qjed.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679923746617-3tksfs9kf3bif2sdcsfbr0743ccd6k2h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.webRtc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

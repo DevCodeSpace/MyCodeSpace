@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBKLz8ExO_eznP734LT_2ycCuodDr0Fw_I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>679923746617</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.webRtc</string>
+	<key>PROJECT_ID</key>
+	<string>webrtc-demo-e307f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>webrtc-demo-e307f.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:679923746617:ios:2e9c0236d9463bbae54ae8</string>
+</dict>
+</plist>
